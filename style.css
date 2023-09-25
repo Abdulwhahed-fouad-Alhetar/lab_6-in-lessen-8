@@ -1,0 +1,237 @@
+/* هذا لما نفعل توريث لبعض الاجزاء */
+
+h1 {
+   font-family: "Times New Roman", Times, serif;
+  }
+  h2 {
+   font-family: "FFTaweel-Stamp", Times, serif;
+ 
+}
+/*   color: blueviolet; هذا الامر حددنا لون النص */
+/*     text-align: center;   مكان النص*/
+/*    text-shadow: 1px 1px brown; ضل النص */
+   /* text-decoration: overline;  فعلنا خط فوق النص */
+   /* word-spacing: 1px; الفواصل بين الكلمات */
+
+
+h1{
+   position: fixed;
+
+   color: blueviolet;
+   text-align: center;  
+   text-shadow: 1px 1px brown; 
+   text-decoration: overline;
+   word-spacing: 1px;
+   top: 20px;
+   right: 500px;
+}
+/* text-transform: capitalize;  نوع الحروف كبيرة أو صغيرة*/
+/* position: fixed; النص وأي شيء يكون ثابت */
+
+h2{
+   position: relative;
+color: blue;
+background-color: brown;
+   text-transform: capitalize;
+ top: 100px;
+/* line-height: 1.5;  الفواصل بين الحروف*/
+}
+h3{
+   text-transform: lowercase;
+   line-height: 1.5;
+   text-indent:50px;
+   font-size: 0.875em; 
+}
+/* text-overflow: ellipsis; إذا زاد النص على الحد المطلوب يضع نقاط */
+/* letter-spacing: 1px;  المسافة بين الحروف*/
+/* overflow: hidden;  إ1ا زاد النص على المطلوب يضيع*/
+
+/* font-size: 5vw; الخط يكون مطاط */
+
+
+h4{
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   font-size: 5vw;
+   font-variant: initial;
+
+}
+/*    font-size: 20px; حجم الخط*/
+/* font-style: initial; شكل الخط*/
+
+h5{
+   font-size: 20px;
+   font-style: initial;
+   font-weight: 800;
+}
+a{
+   text-decoration:none;
+/* hover هذا نفعل اي شيء للرابط مثل اللون وذلك عند وضع المووس عليه */
+/*    text-decoration: underline;  يضع خط تحت الرابط */
+/* visited لي موقع تمت زيارته ونضيف له اي مميزة من اللي اخدناها */
+}
+a:hover{
+   color: red;
+   text-decoration: underline; 
+   background-color: lightgreen; 
+}
+a:visited{
+   background-color: cyan;
+}
+/* نضيفه للرابط يعني نضيف مثلا لون للباك جراوند */
+a:link{
+   color: aqua;
+}
+/* هذا الكود كل عمله إنه نفهل مربع ونتحكم فيه كيف ما نشتي ونكون اي شكل */
+.box { width: 34px;
+   padding: 4px;
+   border: 15px solid navy;
+   margin: 49px;}
+
+
+
+/*  z-index:-1; هذه عملها خلت الصورة تحت الصفحة كامل */
+  img {
+   position: absolute;
+   left: 800px;
+   top: 400px;
+   z-index:-1;
+   }  
+   .all{
+      width: 900px;
+      background-color: darkslateblue;
+      padding: 100px;
+      height: 600;
+   }
+   /* نشوف أن النصو تداخلت مما يدل على أنها تكون متحررة من أي قيود */
+
+   .abso{
+      position: absolute;
+
+   }
+  
+
+
+
+
+.a {
+   background-color: rgb(156, 150, 150);
+   border: 1px solid;
+   padding: 10px;
+   width: 100px;
+   height: 50px;
+}
+
+
+.b {
+   background-color: rgb(42, 32, 179);
+   border: 1px solid;
+   padding: 10px;
+   width: 100px;
+   height: 50px;
+   position: static;
+   top: 50px;
+   right: 50px
+}
+
+
+.c {
+   background-color: rgb(179, 32, 32);
+   border: 2px solid;
+   padding: 10px;
+   width: 500px;
+   height: 300px;
+}
+
+.f {
+   background-color: rgb(156, 150, 150);
+   border: 1px solid;
+   padding: 10px;
+   width: 100px;
+   height: 50px;
+}
+
+
+.x {
+   background-color: rgb(42, 32, 179);
+   border: 1px solid;
+   padding: 10px;
+   width: 100px;
+   height: 50px;
+   position: relative;
+   top: 100px;
+   left: 150px
+}
+
+
+.z {
+   background-color: rgb(179, 32, 32);
+   border: 2px solid;
+   padding: 10px;
+   width: 500px;
+   height: 300px;
+}
+
+.u {
+   background-color: rgb(128, 18, 18);
+   border: 1px solid;
+   padding: 10px;
+   width: 500px;
+   height: 300px;
+
+}
+
+
+.y {
+   background-color: rgb(42, 32, 179);
+   border: 1px solid;
+   padding: 10px;
+   width: 100px;
+   height: 50px;
+   position: absolute;
+   top: auto;
+   left: 90px
+}
+
+
+.t {
+   background-color: rgb(158, 155, 155);
+   border: 2px solid;
+   padding: 10px;
+   width: 100px;
+   height: 50px;
+}
+
+.j {
+   background-color: rgb(128, 18, 18);
+   border: 1px solid;
+   padding: 10px;
+   width: 100px;
+   height: 50px;
+
+}
+
+
+.k {
+   background-color: rgb(42, 32, 179);
+   border: 1px solid;
+   padding: 10px;
+   width: 100px;
+   height: 50px;
+   position: fixed;
+   top: auto;
+   left: 90px
+}
+
+
+.l {
+   background-color: rgb(158, 155, 155);
+   border: 2px solid;
+   padding: 10px;
+   width: 500px;
+   height: 300px;
+}
+
+
